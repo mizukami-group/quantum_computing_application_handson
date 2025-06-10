@@ -1,0 +1,11 @@
+qulacs
+qulacsvis
+matplotlib
+numpy
+scikit-learn
+scipy
+tqdm
+jupyter
+ipywidgets
+pandas
+seaborn

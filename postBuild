@@ -1,0 +1,10 @@
+#!/bin/bash
+# MyBinder用のセットアップスクリプト
+
+# Jupyter widgetsの有効化
+jupyter nbextension enable --py widgetsnbextension --sys-prefix
+
+# JupyterLabの拡張機能をインストール（必要に応じて）
+# jupyter labextension install @jupyter-widgets/jupyterlab-manager
+
+echo "MyBinder環境のセットアップが完了しました。"
