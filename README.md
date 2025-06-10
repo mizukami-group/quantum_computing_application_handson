@@ -1,11 +1,13 @@
 # 量子計算アプリケーション ハンズオン教材
 
-このリポジトリは、授業「量子計算アプリケーション」のためのハンズオン教材です。
+このリポジトリは、授業「量子計算アプリケーション」のためのハンズオン教材です。QURI Partsを使用して量子計算アプリケーションを学びます。
 
 ## 概要
 
 本教材は、量子計算アプリケーションの授業内容を、実際にコードを動かしながら学べるように設計されています。
 各章はJupyter Notebookで構成されており、理論と実践をバランスよく学習できることを目指しています。
+
+[QURI Parts](https://quri-parts.qunasys.com/)は、量子アルゴリズムの研究・開発のための統合的なオープンソースライブラリです。
 
 ## 環境構築
 
@@ -39,18 +41,57 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-## 教材の構成
+## 教材へのアクセス
+
+### 最初のノートブック
+
+QURI Partsの基本的な使い方を学ぶ最初のノートブックはこちらです：
+
+| ノートブック | 内容 | Colab | MyBinder |
+|------------|------|-------|----------|
+| [01_quri_parts_introduction.ipynb](doc/source/notebooks/01_quri_parts_introduction.ipynb) | QURI Parts入門 - 量子回路と量子状態の基礎 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mizukami-group/quantum_computing_application_handson/blob/main/doc/source/notebooks/01_quri_parts_introduction.ipynb) | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mizukami-group/quantum_computing_application_handson/main?labpath=doc%2Fsource%2Fnotebooks%2F01_quri_parts_introduction.ipynb) |
+
+## 教材の構成（予定）
 
 教材は以下のような構成になっています（今後追加予定）：
+
+### 第1章: QURI Partsと量子計算の基礎
+- 量子ビットとゲート操作
+- 量子回路の構築
+- 測定と観測
+- パラメトリック量子回路
+
+### 第2章: 量子アルゴリズムの基礎
+- 量子フーリエ変換
+- グローバーのアルゴリズム
+- 変分量子アルゴリズム（VQE）
+
+### 第3章: 量子機械学習
+- 量子カーネル法
+- 量子ニューラルネットワーク
+
+### 第4章: 量子化学計算への応用
+- 分子の基底状態計算
+- 励起状態の計算
+
+### 第5章: 量子誤り訂正とエラー緩和
+- ノイズモデル
+- エラー緩和技術（Mitiq連携）
 
 ## 使用ライブラリ
 
 本教材では主に以下のライブラリを使用します：
 
+- [QURI Parts](https://quri-parts.qunasys.com/): 量子アルゴリズム開発のための統合ライブラリ
+- [Qulacs](https://github.com/qulacs/qulacs): 高速な量子回路シミュレータ（QURI Partsのバックエンド）
+- [Mitiq](https://mitiq.readthedocs.io/): 量子エラー緩和ライブラリ
+- [OpenFermion](https://quantumai.google/openfermion): 量子化学計算ライブラリ
 - NumPy, Matplotlib, Jupyter: 科学計算と可視化の基本ツール
 
 ## 参考文献
 
+- [QURI Parts Documentation](https://quri-parts.qunasys.com/)
+- [QURI Parts Tutorials](https://quri-parts.qunasys.com/tutorials/)
 - Nielsen & Chuang "Quantum Computation and Quantum Information"
 
 ## ライセンス
