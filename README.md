@@ -11,13 +11,18 @@
 
 ## 環境構築
 
-### 方法1: MyBinderを使用（推奨）
+### 方法1: Google Colabを使用（最も簡単）
+
+教材の各ノートブックにあるColabバッジをクリックするだけで、Googleアカウントがあればすぐに実行できます。
+各ノートブックの最初のセルでQURI Partsが自動的にインストールされます。
+
+### 方法2: MyBinderを使用（インストール不要）
 
 以下のバッジをクリックすることで、ブラウザ上で即座に実行環境を構築できます：
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mizukami-group/quantum_computing_application_handson/main)
 
-### 方法2: ローカル環境での実行
+### 方法3: ローカル環境での実行
 
 1. リポジトリをクローン
 ```bash
