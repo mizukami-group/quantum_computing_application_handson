@@ -1,4 +1,4 @@
-quri-parts[qulacs,braket,openfermion,stim,mitiq,qiskit]==0.12.0
+quri-parts[qulacs,openfermion]==0.22.0
 matplotlib>=3.5.0
 numpy>=1.22.0
 scipy>=1.7.3
